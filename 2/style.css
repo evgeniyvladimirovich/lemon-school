@@ -1,0 +1,15 @@
+
+ol {
+      text-align: left;
+      font-size: 18px;
+      color: green;
+  }
+a {
+      color: green;
+    }
+    a:hover {
+      text-decoration: none;
+    }
+footer {
+      border-bottom: 2px dashed;
+  }
