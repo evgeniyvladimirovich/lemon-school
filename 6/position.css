@@ -1,0 +1,90 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.portfolio-item {
+	position: relative;
+	width: 300px;
+	border: 1px solid red;
+	margin: 50px auto 0;
+	text-align: center;
+	overflow: hidden;
+}
+.portfolio-item img {
+	width: 100%;
+	vertical-align: middle;
+}
+.hover {
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	height: 100%;
+	top: -100%;
+	right: -100%;
+	padding-top: 20px;	
+	transition: all .5s;
+}
+.title {
+	display: block;
+	font-size: 22px;
+	color: white;
+	text-transform: uppercase;
+}
+.link {
+	display: inline-block;
+	text-decoration: none;
+	border: 1px solid white;
+	color: white;
+	padding: 8px 10px 6px;
+	margin-top: 180px;
+}
+.portfolio-item:hover .hover {
+	right: 0;
+	top: 0;
+}
+header {
+	height: 40px;
+	background-color: black;
+	width: 100%;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+ul.menu {
+	letter-spacing: -5px;
+}
+ul.menu > li {
+	display: inline-block;
+	width: 12.5%;
+	letter-spacing: normal;
+	position: relative;
+}
+li a {
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+	width: 100%;
+	line-height: 40px;
+}
+.submenu {
+	position: absolute;
+	width: 100%;
+	top: 100%;
+	background-color: black;
+	display: none;
+	list-style-type: none;
+}
+.submenu li {
+	position: relative;
+}
+.menu li:hover>.submenu {
+	display: block;
+}
+.submenu .submenu  {
+	left: 100%;
+	top: 0;
+}
