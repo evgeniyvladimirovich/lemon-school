@@ -21,13 +21,6 @@
       text-align: center;
       color: blue;
     }
-    
-  .photo span {
-      display: inline-block;
-      text-transform: uppercase;
-      font-size: 20px;
-    }
-    
     .photo:hover {
       opacity: .5;
     }
