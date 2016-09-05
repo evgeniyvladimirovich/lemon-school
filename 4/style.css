@@ -1,0 +1,44 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: monospace;
+	font-size: 15px;
+}
+.wrapper {
+	margin: 0 auto;
+	width: 900px;
+	background: green;
+}
+.header {
+	height: 100px;
+	background-color: gray;
+	color: white;
+	padding: 32px;
+}
+.menu {
+	width: 25%;  
+    background-color: green;
+    float: left;
+    text-align: center;
+}
+.aside {
+	width: 25%;
+    background-color: green;
+    float: left;
+    text-align: center;
+}
+.content {
+    background: yellow; 
+    float: left;
+    width: 50%;
+}
+.footer {
+	height: 100px; 
+    color: white; 
+    background: gray;
+   
+}
+.clear {
+	clear: both;
+}
