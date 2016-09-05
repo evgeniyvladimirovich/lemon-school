@@ -14,12 +14,8 @@
       border-left: 2px solid;
     }
     .photo  {
-      display: block;
       width: 180px;
       padding-left: 290px;
-      text-decoration: none;
-      text-align: center;
-      color: blue;
     }
     .photo:hover {
       opacity: .5;
