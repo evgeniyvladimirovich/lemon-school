@@ -1,0 +1,16 @@
+ * {
+ 	margin: 0;
+ 	padding: 0;
+ }
+ .corner {
+  width: 350px;
+  height: 45px;
+  background: green;
+  position: relative;
+  box-shadow: 4px 0px 0px 0px green, -4px 0px 0px 0px green, 0px 4px 0px 0px green, 0px -4px 0px 0px green;
+  margin: 20px;
+  font-size: 20px;
+  color: white;
+  padding-top: 15px;
+  padding-left: 15px;
+}
